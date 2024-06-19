@@ -1,3 +1,4 @@
+#!/usr/bin/sudo bash
 curr_dir=$(pwd)
 old_configs_dir="$HOME/old_configs"
 
