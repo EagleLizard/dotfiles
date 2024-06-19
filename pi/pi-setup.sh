@@ -32,5 +32,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 nvm install --lts
 
+# install docker
+curl -sSL https://get.docker.com | sh
+sudo usermod -aG docker $USER
+# set docker to start on boot
+sudo systemctl enable docker
+
 # download latest .zshrc
 curl -O https://raw.githubusercontent.com/EagleLizard/dotfiles/main/pi/.zshrc
