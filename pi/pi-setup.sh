@@ -1,4 +1,4 @@
-#!/usr/bin/sudo bash
+
 curr_dir=$(pwd)
 old_configs_dir="$HOME/old_configs"
 
@@ -8,12 +8,12 @@ mkdir -p "$old_configs_dir"
 mv ~/.zshrc "$old_configs_dir"
 
 # install  shit we need
-apt update -y
-apt upgrade -y
-apt install zsh -y
-apt install curl -y
-apt install wget -y
-apt install git -y
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install zsh -y
+sudo apt install curl -y
+sudo apt install wget -y
+sudo apt install git -y
 
 #  install zsh
 sudo apt install zsh -y
