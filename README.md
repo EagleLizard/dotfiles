@@ -3,6 +3,18 @@
 
 dotfiles.
 
+## tmux
+
+```sh
+ln -s ~/repos/dotfiles/.tmux.conf ~/.tmux.conf
+```
+
+## ghostty
+
+```sh
+ln -s ~/repos/dotfiles/config.ghostty ~/Library/Application\ Support/com.mitchellh.ghostty/config.ghostty
+```
+
 ## pi
 
 Run setup script:
